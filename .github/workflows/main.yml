@@ -44,7 +44,7 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
-          repository-name: cw-leia/cw-leia.github.io
+          repository-name: h2lab/smartleia.github.io
           token: ${{ secrets.LEIA_DOC }}
           branch: master # The branch the action should deploy to.
           folder: build/html # The folder the action should deploy.
