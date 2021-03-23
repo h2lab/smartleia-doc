@@ -3,7 +3,7 @@
 The current repository contains the smartleia python package documentation, and how
 to compile it.
 
-**NOTE**: the **smartleia** [Python package](https://github.com/cw-leia/smartleia.git) must
+**NOTE**: the **smartleia** [Python package](https://github.com/h2lab/smartleia.git) must
 be installed for the documentation to compile!
 
 ## Dependencies

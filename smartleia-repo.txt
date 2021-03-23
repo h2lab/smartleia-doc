@@ -1,1 +1,1 @@
-https://github.com/cw-leia/smartleia.git
+https://github.com/h2lab/smartleia.git
