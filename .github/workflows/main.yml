@@ -37,11 +37,14 @@ jobs:
           python -m smartleia || if [ $? -eq 42 ]; then echo "Success (42 is a legitimate exit code)"; else exit 1; fi
           # Handle the documentation now
           if [ -f requirements.txt ]; then pip install --user -r requirements.txt; fi;
+          source /etc/skel/.profile;
           make html;
           make latexpdf;
           touch build/html/.nojekyll;
       # Deploy on github pages
       - name: Deploy
+        # Only deploy the h2lab branch
+        if: github.ref == 'refs/heads/h2lab'
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
           repository-name: h2lab/smartleia.github.io
