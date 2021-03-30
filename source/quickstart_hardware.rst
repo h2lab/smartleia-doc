@@ -6,7 +6,7 @@ Hardware Quickstart
 PCB Version 1.4
 ^^^^^^^^^^^^^^^
 
-.. image:: imgs/leia_solo_specs.webp
+.. image:: imgs/leia_solo_specs.png
 
 Enabling DFU Bootloader and flashing the Firmware
 =================================================
