@@ -11,7 +11,7 @@ PCB Version 1.4
 Enabling DFU Bootloader and flashing the Firmware
 =================================================
 
-The actual version of LEIA can be flashed using the USB connector.
+The actual version of LEIA can be flashed using the USB connector. To boot in DFU mode, set the Boot mode jumber in `DFU` mode instead of `LEIA` mode and reset the board.
 
 Enumerating USB devices
 ========================
