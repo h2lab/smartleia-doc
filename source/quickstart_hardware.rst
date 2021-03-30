@@ -61,6 +61,8 @@ This command calls the dfu-util tool, which can also be executed manually:
     $ dfu-util -d 0483:df11 -a 0 --dfuse-address=0x08000000 -D build/firmware.bin
 
 
+When the firmware is uploaded, remember to set the boot mode jumber to the `LEIA` mode, otherwhise the board will reboot in DFU mode.
+
 Flashing and debugging LEIA Firmware through SWD
 ================================================
 
