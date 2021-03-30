@@ -25,7 +25,7 @@ On a Debian distro you can simply execute:
 ```sh
 apt install pandoc latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
 
-apt install python3-sphix python3-wheel python3-setuptools
+apt install python3-wheel python3-setuptools
 
 pip3 install --user wheel
 pip3 install --user setuptools
